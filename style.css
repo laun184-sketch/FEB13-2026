@@ -15,6 +15,14 @@ body:hover {
     animation: changing 2s infinite;
 }
 
+h1 {
+  color: white;
+}
+
+h1:hover {
+  color: pink;
+}
+
 @keyframe changing{
      0%{
         color:blue;
@@ -26,5 +34,6 @@ body:hover {
         color: blue;
     }
 }
+
 
 

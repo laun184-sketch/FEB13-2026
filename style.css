@@ -6,7 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: black;
-    filter: blur
+    height: 100vh;
 }
 
 body:hover {
@@ -21,6 +21,16 @@ h1 {
 
 h1:hover {
   color: pink;
+
+}
+
+h1, h2{
+    filter: blur(3.5px);
+
+}
+
+h1:hover, h2:hover{
+    filter: blur(0px);
 }
 
 @keyframes changing{
@@ -34,7 +44,4 @@ h1:hover {
         color: blue;
     }
 }
-
-
-
 

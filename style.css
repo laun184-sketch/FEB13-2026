@@ -1,8 +1,12 @@
 body {
-  color: blue;
+    color: blue;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 body:hover {
     color: lightblue
 }
-

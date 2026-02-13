@@ -23,7 +23,7 @@ h1:hover {
   color: pink;
 }
 
-@keyframe changing{
+@keyframes changing{
      0%{
         color:blue;
      }
@@ -34,6 +34,7 @@ h1:hover {
         color: blue;
     }
 }
+
 
 
 
